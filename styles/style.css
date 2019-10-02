@@ -1,0 +1,128 @@
+body {
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  transition: 0.3s;
+}
+
+.container {
+  width: 800px;
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h1 a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+h1 span {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1 a:hover {
+  color: tomato;
+  font-size: 50px;
+}
+
+.panel {
+  background-color: #fff;
+  padding: 15px;
+  margin: 0 0 15px;
+  border-radius: 12px;
+  border: 1px solid #000;
+}
+
+.panel h2 {
+  font-weight: 400;
+  margin: .25em 0;
+  color: tomato;
+}
+
+.panel h3{
+    margin: .25em 0;
+}
+
+article a{
+    color: tomato;
+}
+
+h3 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.panel h3 a:hover {
+  background-color: tomato;
+  color: #fff;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+
+.blogroll{
+    list-style: none;
+    padding: 0;
+    width: 30%;
+}
+
+.blogroll a{
+    display: block;
+    padding: 5px 0;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid pink;
+}
+
+.blogroll li{
+    border-bottom: 1px;
+}
+
+.blogroll a:hover{
+    background-color: tomato;
+    color: #fff;
+}
+
+.copyright{
+    text-align: right;
+}
+.primary{
+  display: inline-block;
+  width: 25%;
+  font-size: 16px;
+}
+.bio {
+  display: inline-block;
+  width: 75%;
+  font-size: 16px;
+}
+.primary a{
+  text-decoration:none;
+  font-weight:bold;
+}
+.primary a:hover{
+  background-color: tomato;
+  color: #fff;
+}
+.panel .article + .article{
+  border-top: 1px solid #bcbcbc;
+  padding-top: 15px;
+}
